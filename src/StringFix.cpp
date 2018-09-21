@@ -167,7 +167,6 @@ namespace stringfix {
       }
 
       std::vector<std::string> result;
-      std::string::size_type position = 0;
       const std::string::size_type startKeySize = complete_match_start.size();
       const std::string::size_type stopKeySize = complete_match_end.size();
       std::string::size_type found = 0;

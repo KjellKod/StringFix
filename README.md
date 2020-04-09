@@ -20,14 +20,14 @@ _std::string trim(const std::string& str, const std::string& whitespace = " \t")
 _std::string to_string(const bool& b);_
 
 ##### Split and Explode the string based on delimiters and match
-* _std::vector<std::string> split(const std::string& split_on_any_delimiters, const std::string& stringToSplit);_
-* _std::vector<std::string> explode(const std::string& complete_match, const std::string& stringToExplode);_
+* _`std::vector<std::string> split(const std::string& split_on_any_delimiters, const std::string& stringToSplit)`;_
+* _`std::vector<std::string> explode(const std::string& complete_match, const std::string& stringToExplode);`_
    
 ##### Get elements that are matching
-_std::vector<std::string> extract(const std::string& complete_match_start, const std::string& complete_match_end, const std::string& content);_
+_`std::vector<std::string> extract(const std::string& complete_match_start, const std::string& complete_match_end, const std::string& content);`_
 
 ##### Verify if vector contains an element
-_bool ContainsElement(const std::vector<std::string>& v, const std::string& s);_
+_`bool ContainsElement(const std::vector<std::string>& v, const std::string& s);`_
   
 ##### Extention handling
 * _std::string remove_extension(const std::string& s);_

@@ -1,7 +1,9 @@
 StringFix
 =========
 
-C++ helper for string manipulation (trim, to_lower, split, explode etc...)
+C++ helper for string manipulation (trim, to_lower, split, explode etc...). 
+For in-depth explanation please see function description at: https://github.com/KjellKod/StringFix/blob/master/src/StringFix.cpp
+
 
 ##### Replace parts of string
 `size_t replace(std::string& input, const std::string& from, const std::string& to);`

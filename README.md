@@ -48,7 +48,7 @@ std::vector<std::string> extract(const std::string& complete_match_start,
 bool ContainsElement(const std::vector<std::string>& v, const std::string& s);
 ```
   
-##### Extention handling
+##### Extension handling
 ```cpp
 std::string remove_extension(const std::string& s);
 std::string get_extension(const std::string& s);
